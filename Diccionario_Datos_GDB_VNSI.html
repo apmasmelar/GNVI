@@ -6,1474 +6,1503 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="background-color:white;">
-    <h1 style="background-color:#004C73; font-family:Avenir Next; text-align:center; font-size:150%; color:white;">Geovisor Volcán Nevado Santa Isabel</h1>
-    <h2 id="Inicio" style="background-color:#407996; font-family:Avenir Next; text-align:center; font-size:125%; color:white;">Estructura Modelo de Datos</h2>
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; font-size:90%; border-collapse: collapse; width: 100%; text-align: center;">
-        <tr>
-            <th>Tipo Dato</th>
-            <th>Código</th>
-            <th>Entidad / Tabla</th>
-            <th>Código</th>
-            <th>Capa Geográfica / Tabla</th>
-            <th>Código</th>
-            <th>Geometría / Tabla</th>
-            <th>ID</th>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td>AreaGlaciar</td>
-            <td>11</td>
-            <td><a href=#VNSI_1850_2020>VNSI_1850_2020</a></td>
-            <td>01</td>
-            <td>Polígono</td>
-            <td>V1101</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>11</td>
-            <td><a href=#VNSI_1850>VNSI_1850</a></td>
-            <td>02</td>
-            <td>Polígono</td>
-            <td>V1102</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>11</td>
-            <td><a href=#VNSI_1959>VNSI_1959</a></td>
-            <td>03</td>
-            <td>Polígono</td>
-            <td>V1103</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>11</td>
-            <td><a href=#VNSI_1996>VNSI_1996</a></td>
-            <td>04</td>
-            <td>Polígono</td>
-            <td>V1104</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>11</td>
-            <td><a href=#VNSI_2010>VNSI_2010</a></td>
-            <td>05</td>
-            <td>Polígono</td>
-            <td>V1105</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>11</td>
-            <td><a href=#VNSI_2016>VNSI_2016</a></td>
-            <td>06</td>
-            <td>Polígono</td>
-            <td>V1106</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>11</td>
-            <td><a href=#VNSI_2017>VNSI_2017</a></td>
-            <td>07</td>
-            <td>Polígono</td>
-            <td>V1107</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>11</td>
-            <td><a href=#VNSI_2019>VNSI_2019</a></td>
-            <td>08</td>
-            <td>Polígono</td>
-            <td>V1108</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>11</td>
-            <td><a href=#VNSI_2020>VNSI_2020</a></td>
-            <td>09</td>
-            <td>Polígono</td>
-            <td>V1109</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td>BalizaMonitoreo</td>
-            <td>12</td>
-            <td><a href=#BalizaMonitoreo>BalizaMonitoreo</a></td>
-            <td>01</td>
-            <td>Punto</td>
-            <td>V1201</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>12</td>
-            <td><a href=#BalizaConejeras_2019>BalizaConejeras_2019</a></td>
-            <td>02</td>
-            <td>Punto</td>
-            <td>V1202</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>12</td>
-            <td><a href=#BalizaConejeras_2021>BalizaConejeras_2021</a></td>
-            <td>03</td>
-            <td>Punto</td>
-            <td>V1203</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>12</td>
-            <td><a href=#BalizaElHongo_2021>BalizaElHongo_2021</a></td>
-            <td>04</td>
-            <td>Punto</td>
-            <td>V1204</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td>Hidrologia</td>
-            <td>13</td>
-            <td><a href=#Cuenca>Cuenca</a></td>
-            <td>01</td>
-            <td>Polígono</td>
-            <td>V1301</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>13</td>
-            <td><a href=#Drenaje>Drenaje</a></td>
-            <td>02</td>
-            <td>Línea</td>
-            <td>V1302</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td></td>
-            <td>13</td>
-            <td><a href=#Laguna>Laguna</a></td>
-            <td>03</td>
-            <td>Polígono</td>
-            <td>V1303</td>
-        </tr>
-        <tr>
-            <td>Vector</td>
-            <td>V</td>
-            <td>Toponimia</td>
-            <td>14</td>
-            <td><a href=#Toponimia>Toponimia</a></td>
-            <td>01</td>
-            <td>Punto</td>
-            <td>V1401</td>
-        </tr>
-        <tr>
-            <td>Tabla</td>
-            <td>T</td>
-            <td>Estadistica</td>
-            <td>15</td>
-            <td><a href=#AltitudLineaEquilibrio>AltitudLineaEquilibrio</a></td>
-            <td>01</td>
-            <td>Tabla</td>
-            <td>T1501</td>
-        </tr>
-        <tr>
-            <td>Tabla</td>
-            <td>T</td>
-            <td></td>
-            <td>15</td>
-            <td><a href=#BalanceMasa>BalanceMasa</a></td>
-            <td>02</td>
-            <td>Tabla</td>
-            <td>T1502</td>
-        </tr>
-        <tr>
-            <td>Tabla</td>
-            <td>T</td>
-            <td></td>
-            <td>15</td>
-            <td><a href=#EspesorNieveAcumulada>EspesorNieveAcumulada</a></td>
-            <td>03</td>
-            <td>Tabla</td>
-            <td>T1503</td>
-        </tr>
-    </table>
-    <h2 style="background-color:#407996; font-family:Avenir Next; text-align:center; font-size:125%; color:white;">Capas Geográficas</h2>
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="VNSI_1850_2020" style="color:white"><b>VNSI_1850_2020</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_1850_2020</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Evolución multitemporal de la superficie glaciar Volcán Nevado Santa Isabel serie de tiempo 1850-2020</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80% ">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="VNSI_1850" style="color:white"><b>VNSI_1850</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_1850</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 1850</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80% ">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="VNSI_1959" style="color:white"><b>VNSI_1959</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_1959</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 1959</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80% ">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%;width:100%">
-        <tr>
-            <td id="VNSI_1996" style="color:white"><b>VNSI_1996</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_1996</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 1996</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%;width:100%">
-        <tr>
-            <td id="VNSI_2010" style="color:white"><b>VNSI_2010</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_2010</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2010</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="VNSI_2016" style="color:white"><b>VNSI_2016</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_2016</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2016</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="VNSI_2017" style="color:white"><b>VNSI_2017</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_2017</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2017</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="VNSI_2019" style="color:white"><b>VNSI_2019</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_2019</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2019</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="VNSI_2020" style="color:white"><b>VNSI_2020</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">VNSI_2020</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2020</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del glaciar</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Area_Km2</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">URL_Fotografia</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">250</td>
-            <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="BalizaMonitoreo" style="color:white"><b>BalizaMonitoreo</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">BalizaMonitoreo</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">
-                Puntos donde se localizan las balizas o estacas de monitoreo,
-                a través de las cuales se cuantifican los cambios en la superficie del nivel del hielo o la nieve del Volcán Nevado Santa Isabel
-            </td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Punto</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Sector</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del sector donde se localiza la baliza o estaca de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Codigo_Baliza</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Código de identificación de la baliza o estaca de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Norte</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Coordenada norte del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Este</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Coordenada este del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Altura</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Altura en la que está localizada la baliza o estaca de monitoreo, medida en metros (m)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">ID_Baliza</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Identificador único asignado para la base de datos</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="BalizaConejeras_2019" style="color:white"><b>BalizaConejeras_2019</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">BalizaConejeras_2019</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">
-                Puntos donde se localizan las balizas o estacas de monitoreo
-                en el sector Conejeras del Volcán Nevado Santa Isabel para el año 2019
-            </td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Punto</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Sector</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del sector donde se localiza la baliza o estaca de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Codigo_Baliza</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Código de identificación de la baliza o estaca de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Norte</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Coordenada norte del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Este</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Coordenada este del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Altura</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Altura en la que está localizada la baliza o estaca de monitoreo, medida en metros (m)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">ID_Baliza</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Identificador único asignado para la base de datos</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="BalizaConejeras_2021" style="color:white"><b>BalizaConejeras_2021</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">BalizaConejeras_2021</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">
-                Puntos donde se localizan las balizas o estacas de monitoreo
-                en el sector Conejeras del Volcán Nevado Santa Isabel para el año 2021
-            </td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Punto</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Sector</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del sector donde se localiza la baliza o estaca de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Codigo_Baliza</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Código de identificación de la baliza o estaca de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Norte</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Coordenada norte del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Este</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Coordenada este del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Altura</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Altura en la que está localizada la baliza o estaca de monitoreo, medida en metros (m)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">ID_Baliza</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Identificador único asignado para la base de datos</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="BalizaElHongo_2021" style="color:white"><b>BalizaElHongo_2021</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">BalizaElHongo_2021</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">
-                Puntos donde se localizan las balizas o estacas de monitoreo
-                en el sector El Hongo del Volcán Nevado Santa Isabel para el año 2021
-            </td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Punto</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Sector</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del sector donde se localiza la baliza o estaca de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">Short</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Codigo_Baliza</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Código de identificación de la baliza o estaca de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Norte</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Coordenada norte del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Este</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Coordenada este del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Altura</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%;"></td>
-            <td style="width:40%;">Altura en la que está localizada la baliza o estaca de monitoreo, medida en metros (m)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">ID_Baliza</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Identificador único asignado para la base de datos</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="Cuenca" style="color:white"><b>Cuenca</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">Cuenca</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Cuencas hidrográficas asociadas al glaciar Volcán Nevado Santa Isabel</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre de la cuenca hidrográfica</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="Drenaje" style="color:white"><b>Drenaje</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">Drenaje</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Drenajes asociados al glaciar Volcán Nevado Santa Isabel</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Línea</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del drenaje</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="Laguna" style="color:white"><b>Laguna</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">Laguna</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">Lagunas asociadas al glaciar Volcán Nevado Santa Isabel</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Polígono</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre de la laguna</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="Toponimia" style="color:white"><b>Toponimia</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Feature Class:</b></td>
-            <td style="width:90%;">Toponimia</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">
-                Nombres geográficos sugeridos por el IDEAM con los que se identifican
-                las principales cumbres y sectores del Volcán Nevado Santa Isabel, incluye también el topónimo del Volcán Nevado del Ruíz.
-            </td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Geometría:</b></td>
-            <td style="width:90%;">Punto</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Nombre</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">50</td>
-            <td style="width:40%;">Nombre del referente geográfico</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <h2 style="background-color:#407996; font-family:Avenir Next; text-align:center; font-size:125%; color:white;">Tablas</h2>
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="AltitudLineaEquilibrio" style="color:white"><b>AltitudLineaEquilibrio</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Nombre:</b></td>
-            <td style="width:90%;">AltitudLineaEquilibrio</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">
-                Línea de Equilibrio Altitudinal (conocida por sus siglas en inglés ELA),
-                representa la altitud a la cual el glaciar está en equilibrio, es decir donde el balance de masa es igual a cero
-            </td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Tipo de Dato:</b></td>
-            <td style="width:90%;">Tabla</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">4</td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">ELA_m</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Línea de equilibrio altitudinal medida en metros (m)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="BalanceMasa" style="color:white"><b>BalanceMasa</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Nombre:</b></td>
-            <td style="width:90%;">BalanceMasa</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">
-                Balance de masa glaciar, consiste en el cálculo periódico y cuantitativo de las pérdidas
-                y ganancias de masa (hielo y nieve). Representa el estado de salud de un glaciar
-            </td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Tipo de Dato:</b></td>
-            <td style="width:90%;">Tabla</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">4</td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Periodo_medicion</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">255</td>
-            <td style="width:40%;">Período de monitoreo</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Parametro</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">255</td>
-            <td style="width:40%;">Parámetro glaciológico medido</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Valor</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Valor calculado para el parámetro medido</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
-    <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
-        <tr>
-            <td id="EspesorNieveAcumulada" style="color:white"><b>EspesorNieveAcumulada</b></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Nombre:</b></td>
-            <td style="width:90%;">EspesorNieveAcumulada</td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Descripción:</b></td>
-            <td style="width:90%;">
-                Espesor del manto de nieve sobre el glaciar, calculado a partir de los datos
-                de espesor de nieve medidos en cada baliza para cada periodo de medición
-            </td>
-        </tr>
-        <tr>
-            <td style="width:10%;"><b>Tipo de Dato:</b></td>
-            <td style="width:90%;">Tabla</td>
-        </tr>
-    </table>
-    <br />
-    <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%">
-        <tr>
-            <th style="width:15%;">CAMPO</th>
-            <th style="width:15%;">TIPO DE DATO</th>
-            <th style="width:15%;">TAMAÑO</th>
-            <th style="width:40%;">DESCRIPCIÓN</th>
-            <th style="width:15%;">OBLIGATORIEDAD</th>
-        </tr>
-        <tr>
-            <td style="width:15%;">Año</td>
-            <td style="width:15%;">String</td>
-            <td style="width:15%; text-align:center;">4</td>
-            <td style="width:40%;">Año de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Fecha_medicion</td>
-            <td style="width:15%;">Date</td>
-            <td style="width:15%; text-align:center;">255</td>
-            <td style="width:40%;">Fecha de medición</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Espesor_mensual_m</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Espesor mensual de la superficie glaciar medida en metros (m)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-        <tr>
-            <td style="width:15%;">Espesor_anual_m</td>
-            <td style="width:15%;">Double</td>
-            <td style="width:15%; text-align:center;"></td>
-            <td style="width:40%;">Espesor anual de la superficie glaciar medida en metros (m)</td>
-            <td style="width:15%; text-align:center;">Si</td>
-        </tr>
-    </table>
-    <br />
-    <a class="top" href="#" style="font-size:80%;">Volver</a>
-    <hr />
+    <h1 style="background-color:#004C73; font-family:Avenir Next; text-align:center; font-size:125%; width:100%; color:white;">Geovisor Volcán Nevado Santa Isabel</h1>
+    <h2 id="Inicio" style="background-color:#407996; font-family:Avenir Next; text-align:center; font-size:100%; width:100%; color:white;">Estructura Modelo de Datos</h2>
+    <table style="background-color: #DFE9ED; font-family: Avenir Next; font-size:80%; border-collapse: collapse; width:100%; text-align: center">
+            <tr>
+                <th>Tipo Dato</th>
+                <th>Código</th>
+                <th>Entidad / Tabla</th>
+                <th>Código</th>
+                <th>Capa Geográfica / Tabla</th>
+                <th>Código</th>
+                <th>Geometría / Tabla</th>
+                <th>ID</th>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td>AreaGlaciar</td>
+                <td>11</td>
+                <td><a href=#VNSI_1850_2020>VNSI_1850_2020</a></td>
+                <td>01</td>
+                <td>Polígono</td>
+                <td>V1101</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>11</td>
+                <td><a href=#VNSI_1850>VNSI_1850</a></td>
+                <td>02</td>
+                <td>Polígono</td>
+                <td>V1102</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>11</td>
+                <td><a href=#VNSI_1959>VNSI_1959</a></td>
+                <td>03</td>
+                <td>Polígono</td>
+                <td>V1103</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>11</td>
+                <td><a href=#VNSI_1996>VNSI_1996</a></td>
+                <td>04</td>
+                <td>Polígono</td>
+                <td>V1104</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>11</td>
+                <td><a href=#VNSI_2010>VNSI_2010</a></td>
+                <td>05</td>
+                <td>Polígono</td>
+                <td>V1105</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>11</td>
+                <td><a href=#VNSI_2016>VNSI_2016</a></td>
+                <td>06</td>
+                <td>Polígono</td>
+                <td>V1106</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>11</td>
+                <td><a href=#VNSI_2017>VNSI_2017</a></td>
+                <td>07</td>
+                <td>Polígono</td>
+                <td>V1107</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>11</td>
+                <td><a href=#VNSI_2019>VNSI_2019</a></td>
+                <td>08</td>
+                <td>Polígono</td>
+                <td>V1108</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>11</td>
+                <td><a href=#VNSI_2020>VNSI_2020</a></td>
+                <td>09</td>
+                <td>Polígono</td>
+                <td>V1109</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td>Baliza</td>
+                <td>12</td>
+                <td><a href=#BalizaMonitoreo>Baliza</a></td>
+                <td>01</td>
+                <td>Punto</td>
+                <td>V1201</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>12</td>
+                <td><a href=#BalizaConejeras_2019>BalizaConejeras_2019</a></td>
+                <td>02</td>
+                <td>Punto</td>
+                <td>V1202</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>12</td>
+                <td><a href=#BalizaConejeras_2021>BalizaConejeras_2021</a></td>
+                <td>03</td>
+                <td>Punto</td>
+                <td>V1203</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>12</td>
+                <td><a href=#BalizaElHongo_2021>BalizaElHongo_2021</a></td>
+                <td>04</td>
+                <td>Punto</td>
+                <td>V1204</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td>Hidrologia</td>
+                <td>13</td>
+                <td><a href=#Cuenca>Cuenca</a></td>
+                <td>01</td>
+                <td>Polígono</td>
+                <td>V1301</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>13</td>
+                <td><a href=#Drenaje>Drenaje</a></td>
+                <td>02</td>
+                <td>Línea</td>
+                <td>V1302</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td></td>
+                <td>13</td>
+                <td><a href=#Laguna>Laguna</a></td>
+                <td>03</td>
+                <td>Polígono</td>
+                <td>V1303</td>
+            </tr>
+            <tr>
+                <td>Vector</td>
+                <td>V</td>
+                <td>Toponimia</td>
+                <td>14</td>
+                <td><a href=#Toponimia>Toponimia</a></td>
+                <td>01</td>
+                <td>Punto</td>
+                <td>V1401</td>
+            </tr>
+            <tr>
+                <td>Tabla</td>
+                <td>T</td>
+                <td>Estadistica</td>
+                <td>15</td>
+                <td><a href=#AltitudLineaEquilibrio>AltitudLineaEquilibrio</a></td>
+                <td>01</td>
+                <td>Tabla</td>
+                <td>T1501</td>
+            </tr>
+            <tr>
+                <td>Tabla</td>
+                <td>T</td>
+                <td></td>
+                <td>15</td>
+                <td><a href=#BalanceMasa>BalanceMasa</a></td>
+                <td>02</td>
+                <td>Tabla</td>
+                <td>T1502</td>
+            </tr>
+            <tr>
+                <td>Tabla</td>
+                <td>T</td>
+                <td></td>
+                <td>15</td>
+                <td><a href=#EspesorNieveAcumulada>EspesorNieveAcumulada</a></td>
+                <td>03</td>
+                <td>Tabla</td>
+                <td>T1503</td>
+            </tr>
+        </table>
+        <h2 style="background-color:#407996; font-family:Avenir Next; text-align:center; font-size:100%; width:100%; color:white;">Capas Geográficas</h2>
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_1850_2020" style="color:white"><b>VNSI_1850_2020</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_1850_2020</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Evolución multitemporal de la superficie glaciar Volcán Nevado Santa Isabel serie de tiempo 1850-2020.
+                Los datos entre 1850 y 1997 son tomados a partir de las publicaciones "Los nevados de Colombia: glaciales y glaciaciones", 
+                editado y publicado por el Insituto Geográfico Agustín Codazzi en el año 1992, y el estudio realizado mediante convenio 041/1997 
+                entre el IDEAM y la Universidad Nacional de Colombia (Departamento de Geografía) titulado "Geosistemas de la alta montaña". 
+                A partir del año 2001, son calculados mediante interpretación y análisis de sensores remotos y producidos por el Instituto de Hidrología, 
+                Meteorología y Estudios Ambientales  - IDEAM. Subdirección de Ecosistemas e Información Ambiental. Grupo de Monitoreo de Ecosistemas de Alta Montaña. 2021.</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre_Glaciar</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_1850" style="color:white"><b>VNSI_1850</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_1850</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 1850</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width: 100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_1959" style="color:white"><b>VNSI_1959</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_1959</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 1959</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_1996" style="color:white"><b>VNSI_1996</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_1996</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 1996</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_2010" style="color:white"><b>VNSI_2010</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_2010</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2010</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_2016" style="color:white"><b>VNSI_2016</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_2016</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2016</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_2017" style="color:white"><b>VNSI_2017</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_2017</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2017</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_2019" style="color:white"><b>VNSI_2019</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_2019</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2019</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="VNSI_2020" style="color:white"><b>VNSI_2020</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">VNSI_2020</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Área glaciar del Volcán Nevado Santa Isabel estimada para 2020</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Area_Km2</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Área glaciar medida en hectáreas (ha)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Fecha asignada para configurar herramienta de línea del tiempo del geovisor</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">URL_Fotografia</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">250</td>
+                <td style="width:40%;">Dirección web donde se encuentra disponible el registro fotográfico asociado al área glaciar representada</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="Baliza" style="color:white"><b>Baliza</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">Baliza</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">
+                    Puntos donde se localizan las balizas o estacas de monitoreo,
+                    a través de las cuales se cuantifican los cambios en la superficie del nivel del hielo o la nieve del Volcán Nevado Santa Isabel
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Punto</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Sector</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del sector donde se localiza la baliza o estaca de monitoreo</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Codigo_Baliza</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Código de identificación de la baliza o estaca de monitoreo</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Norte</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Coordenada norte del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Este</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Coordenada este del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Altura</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Altura en la que está localizada la baliza o estaca de monitoreo, medida en metros (m)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">ID_Baliza</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Identificador único asignado para la base de datos</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="BalizaConejeras_2019" style="color:white"><b>BalizaConejeras_2019</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">BalizaConejeras_2019</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">
+                    Puntos donde se localizan las balizas o estacas de monitoreo
+                    en el sector Conejeras del Volcán Nevado Santa Isabel para el año 2019
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Punto</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Sector</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del sector donde se localiza la baliza o estaca de monitoreo</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Codigo_Baliza</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Código de identificación de la baliza o estaca de monitoreo</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Norte</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Coordenada norte del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Este</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Coordenada este del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Altura</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Altura en la que está localizada la baliza o estaca de monitoreo, medida en metros (m)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">ID_Baliza</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Identificador único asignado para la base de datos</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="BalizaConejeras_2021" style="color:white"><b>BalizaConejeras_2021</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">BalizaConejeras_2021</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">
+                    Puntos donde se localizan las balizas o estacas de monitoreo
+                    en el sector Conejeras del Volcán Nevado Santa Isabel para el año 2021
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Punto</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Sector</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del sector donde se localiza la baliza o estaca de monitoreo</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Codigo_Baliza</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Código de identificación de la baliza o estaca de monitoreo</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Norte</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Coordenada norte del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Este</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Coordenada este del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Altura</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Altura en la que está localizada la baliza o estaca de monitoreo, medida en metros (m)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">ID_Baliza</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Identificador único asignado para la base de datos</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="BalizaElHongo_2021" style="color:white"><b>BalizaElHongo_2021</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">BalizaElHongo_2021</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">
+                    Puntos donde se localizan las balizas o estacas de monitoreo
+                    en el sector El Hongo del Volcán Nevado Santa Isabel para el año 2021
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Punto</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Sector</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del sector donde se localiza la baliza o estaca de monitoreo</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">Short</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Codigo_Baliza</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Código de identificación de la baliza o estaca de monitoreo</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Norte</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Coordenada norte del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Este</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Coordenada este del punto, está calculada en el sistema de referencia origen nacional CTM12 (EPSG:9377)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Altura</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%;"></td>
+                <td style="width:40%;">Altura en la que está localizada la baliza o estaca de monitoreo, medida en metros (m)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">ID_Baliza</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Identificador único asignado para la base de datos</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="Cuenca" style="color:white"><b>Cuenca</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">Cuenca</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Cuencas hidrográficas asociadas al glaciar Volcán Nevado Santa Isabel</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre de la cuenca hidrográfica</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre_Glaciar</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="Drenaje" style="color:white"><b>Drenaje</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">Drenaje</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Drenajes asociados al glaciar Volcán Nevado Santa Isabel</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Línea</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del drenaje</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre_Glaciar</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="Laguna" style="color:white"><b>Laguna</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">Laguna</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">Lagunas asociadas al glaciar Volcán Nevado Santa Isabel</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Polígono</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre de la laguna</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre_Glaciar</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del glaciar</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="Toponimia" style="color:white"><b>Toponimia</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Feature Class:</b></td>
+                <td style="width:90%;">Toponimia</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">
+                    Nombres geográficos sugeridos por el IDEAM con los que se identifican
+                    puntos de referencia de las principales cumbres y sectores del Volcán Nevado Santa Isabel.
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Geometría:</b></td>
+                <td style="width:90%;">Punto</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:90%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Nombre</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">50</td>
+                <td style="width:40%;">Nombre del referente geográfico</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <h2 style="background-color: #407996; font-family: Avenir Next; text-align: center; font-size:100%; width:100%; color:white;">Tablas</h2>
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="AltitudLineaEquilibrio" style="color:white"><b>AltitudLineaEquilibrio</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Nombre:</b></td>
+                <td style="width:90%;">AltitudLineaEquilibrio</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">
+                    Línea de Equilibrio Altitudinal (conocida por sus siglas en inglés ELA),
+                    representa la altitud a la cual el glaciar está en equilibrio, es decir donde el balance de masa es igual a cero
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Tipo de Dato:</b></td>
+                <td style="width:90%;">Tabla</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">4</td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">ELA_m</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Línea de equilibrio altitudinal medida en metros (m)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="BalanceMasa" style="color:white"><b>BalanceMasa</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Nombre:</b></td>
+                <td style="width:90%;">BalanceMasa</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">
+                    Balance de masa glaciar, consiste en el cálculo periódico y cuantitativo de las pérdidas
+                    y ganancias de masa (hielo y nieve). Representa el estado de salud de un glaciar
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Tipo de Dato:</b></td>
+                <td style="width:90%;">Tabla</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">4</td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Periodo_medicion</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">255</td>
+                <td style="width:40%;">Año hidrológico, se refiere al ciclo completo de las condiciones climáticas estacionales de la región donde se encuentra el glaciar. 
+                Este ciclo comienza en el inicio de un periodo húmedo o seco y finaliza al año siguiente en el mismo periodo húmedo o seco.</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Parametro</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">255</td>
+                <td style="width:40%;">Parámetro glaciológico calculado, corresponde a la sumatoria de la acumulación (ganancia) y de la ablación (pérdida) glaciar. 
+                Valores positivos indican ganancia de masa glaciar, iguales a cero señalan equilibrio y negativos indican pérdida. 
+                El balance de masa se expresa en milímetros equivalentes de agua (mm e.a.).</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Valor</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Valor calculado para el parámetro medido</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
+        <table style="background-color: #608FA8; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <td id="EspesorNieveAcumulada" style="color:white"><b>EspesorNieveAcumulada</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Nombre:</b></td>
+                <td style="width:90%;">EspesorNieveAcumulada</td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Descripción:</b></td>
+                <td style="width:90%;">
+                    Espesor del manto de nieve sobre el glaciar, calculado a partir de los datos
+                    de espesor de nieve medidos en cada baliza para cada periodo de medición
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10%;"><b>Tipo de Dato:</b></td>
+                <td style="width:90%;">Tabla</td>
+            </tr>
+        </table>
+        <br />
+        <table style="background-color: #DFE9ED; font-family: Avenir Next; border-collapse: collapse; font-size:80%; width:100%">
+            <tr>
+                <th style="width:15%;">CAMPO</th>
+                <th style="width:15%;">TIPO DE DATO</th>
+                <th style="width:15%;">TAMAÑO</th>
+                <th style="width:40%;">DESCRIPCIÓN</th>
+                <th style="width:15%;">OBLIGATORIEDAD</th>
+            </tr>
+            <tr>
+                <td style="width:15%;">Año</td>
+                <td style="width:15%;">String</td>
+                <td style="width:15%; text-align:center;">4</td>
+                <td style="width:40%;">Año de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Fecha_medicion</td>
+                <td style="width:15%;">Date</td>
+                <td style="width:15%; text-align:center;">255</td>
+                <td style="width:40%;">Fecha de medición</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Espesor_mensual_m</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Espesor mensual de la superficie glaciar medida en metros (m)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+            <tr>
+                <td style="width:15%;">Espesor_anual_m</td>
+                <td style="width:15%;">Double</td>
+                <td style="width:15%; text-align:center;"></td>
+                <td style="width:40%;">Espesor anual de la superficie glaciar medida en metros (m)</td>
+                <td style="width:15%; text-align:center;">Si</td>
+            </tr>
+        </table>
+        <br />
+        <a class="top" href="#" style="font-size:80%;">Volver</a>
+        <hr />
 </body>
 </html>
